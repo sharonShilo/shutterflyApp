@@ -104,8 +104,7 @@ fun Content(viewModel: MainPageViewModel, paddingValues: PaddingValues) {
         if (genres.isEmpty()) {
             Box(
                 modifier = Modifier
-                    .fillMaxSize()
-                    .weight(1f),
+                    .fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
                 CircularProgressIndicator()
