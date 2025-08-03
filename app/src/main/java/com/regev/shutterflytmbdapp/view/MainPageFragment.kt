@@ -215,7 +215,7 @@ fun ImageAndRating(imageUrl: String, rating: Float) {
                 progress = {
                     rating / 10f
                 },
-                trackColor = ProgressIndicatorDefaults.circularTrackColor,
+                trackColor = ProgressIndicatorDefaults.circularIndeterminateTrackColor,
                 modifier = Modifier.fillMaxSize(),
                 strokeWidth = 6.dp
             )
